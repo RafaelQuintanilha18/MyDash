@@ -36,3 +36,13 @@ li p {
   color: #595959;
 }
 
+.container-form {
+  align-items: center;
+  width: 90%;
+}
+
+@media (min-width: 900px) {
+  .container-form {
+    width: 80%;
+  }
+}
