@@ -101,3 +101,20 @@
 .btn:hover {
   color: var(--bs-btn-hover-color);
 }
+
+.demo-account {
+  background-color: rgba(255, 0, 0, 0.557);
+  opacity: 0.8;
+  padding: 0.5em;
+  margin-bottom: 0.7em;
+}
+
+.demo-account p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+.demo-account p:first-child {
+  text-align: center;
+}
