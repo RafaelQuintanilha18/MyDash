@@ -67,7 +67,7 @@
 .plus-card {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   text-align: center;
-  margin: 25px 10px;
+  margin: 25px 0;
   padding: 12px 0px;
   border-radius: 10px;
 }
@@ -84,4 +84,26 @@
 
 .fa-circle {
   font-size: 13px;
+}
+
+
+@media (min-width: 800px) {
+  .problem_card {
+    margin: 10px auto;
+    padding: 10px;
+    width: 650px;
+  }
+  .title-price h3 {
+    font-size: 1.2rem;
+  }
+  .fa-circle {
+    font-size: 15px;
+  }
+  .title-price h4, .fa-pen, .fa-trash-can {
+    font-size: 1rem;
+  }
+
+  .problem_card p {
+    font-size: 0.9rem;
+  }
 }
