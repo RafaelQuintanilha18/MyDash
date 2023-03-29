@@ -30,8 +30,9 @@
       </div>
     <% end %>
 
-    <div class="my-3 d-flex justify-center">
+    <div class="my-3 d-flex">
       <%= link_to "Log out", destroy_user_session_path, data: {turbo_method: :delete, turbo_confirm: "Are you sure?", class: "logoutLink"} %>
+      <div style="margin-left: 30px"><%= link_to "Return", overview_index_path%></div>
     </div>
 
 </div>

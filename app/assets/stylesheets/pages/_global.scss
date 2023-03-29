@@ -46,3 +46,11 @@ li p {
     width: 80%;
   }
 }
+
+@media (max-width: 425px) {
+  .nav-item button {
+    font-size: 0.8rem;
+    padding: 8px 4px;
+
+  }
+}

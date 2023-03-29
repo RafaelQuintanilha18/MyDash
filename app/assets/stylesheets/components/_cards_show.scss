@@ -2,7 +2,6 @@
   border-radius: 5px;
   overflow: hidden;
   min-height: 150px;
-  min-width: 450px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
@@ -145,4 +144,7 @@
  margin: 1em auto;
  width: 450px;
  }
+.vehicles-container {
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
  }
